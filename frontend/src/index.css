@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  color-scheme: light;
+  
+  /* Gov Blue Palette */
+  --color-gov-blue: #006DB7;
+  --color-dark-cerulean: #0B4F83;
+  --color-light-gray: #F5F5F5;
+  --color-text-dark: #333333;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-image: radial-gradient(#006DB7 0.5px, transparent 0.5px), radial-gradient(#006DB7 0.5px, #f8fafc 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  background-attachment: fixed;
+  /* Reduced opacity for the pattern */
+  background-blend-mode: multiply;
+  opacity: 0.99; /* Fix for some rendering contexts */
+}
+
+/* Subtle overlay to soften the dots logic */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(248, 250, 252, 0.92); /* High opacity overlay */
+  z-index: -1;
+  pointer-events: none;
+}
+
+@layer utilities {
+  .bg-gov-gradient {
+    background: linear-gradient(135deg, #006DB7 0%, #0B4F83 100%);
+  }
+  
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}

@@ -1,0 +1,24 @@
+# --- System & IDE Junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+~$*
+
+# --- Python Backend ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# --- Node Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# --- AI Models ---
+# Git restricts files larger than 100MB. 
+# If best.pt is small, you can keep it. If huge, uncomment next line:
+# backend/models/*.pt
