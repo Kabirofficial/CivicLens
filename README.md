@@ -13,12 +13,12 @@
 ## 📸 Project Screenshots
 
 ### 📱 Citizen App (Mobile)
-| Home Screen | AI Scanning | Upload Success | Nearby Reports |
+| Home Screen | Report Management | Side Bar | User Management |
 |:---:|:---:|:---:|:---:|
 | <img src="screenshots/mobile%201.jpg" width="200" /> | <img src="screenshots/mobile%202.jpg" width="200" /> | <img src="screenshots/mobile%203.jpg" width="200" /> | <img src="screenshots/mobile%204.jpg" width="200" /> |
 
 ### 💻 Admin Dashboard (Desktop)
-| Dashboard Overview | Report Details |
+| Dashboard Overview | Homepage |
 |:---:|:---:|
 | <img src="screenshots/window%201.png" width="100%" /> | <img src="screenshots/window%202.png" width="100%" /> |
 | *Visual Map & Stats* | *Report Management* |
